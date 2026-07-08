@@ -41,9 +41,9 @@ time.
 
 <div align="center">
 
-| Menu | Lesson | Reward |
+| Demo | Lesson | Reward |
 |:---:|:---:|:---:|
-| <img src="screenshots/menu.png" width="240"> | <img src="screenshots/lesson.png" width="240"> | <img src="screenshots/reward.png" width="240"> |
+| <img src="screenshots/demo_v1.1.gif" width="240"> | <img src="screenshots/lesson.png" width="240"> | <img src="screenshots/reward.png" width="240"> |
 
 </div>
 
