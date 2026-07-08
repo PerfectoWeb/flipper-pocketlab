@@ -110,16 +110,11 @@ helpers/
   pocketlab_storage.*    Versioned save/load on the SD card
 ```
 
-## ❤️ Support & contribute
+## 💬 Support & Contributions
 
-PocketLab is just getting started – and it grows fastest with your help.
-
-- 💡 **Got an idea** for a lab or feature? [Open an issue](https://github.com/PerfectoWeb/flipper-pocketlab/issues) – I read every one.
-- 🛠️ **Built something?** Send a pull request. New labs are just data in
-  [`pocketlab_content.c`](helpers/pocketlab_content.c), so they're quick to add and easy to review.
-- ⭐ **Enjoying it?** Star the repo – it genuinely helps others find the project.
-
-Every idea and PR is reviewed, and the good ones get **merged and shipped**. Thank you! 🙌
+- 💬 Found a bug or have a feature request? [Open an Issue](https://github.com/PerfectoWeb/flipper-pocketlab/issues)
+- ⭐ Like the project? [Star the repo](https://github.com/PerfectoWeb/flipper-pocketlab)! [Give a coffee](https://perfecto-web.com)!
+- 🛠 Want to contribute? [Fork it](https://github.com/PerfectoWeb/flipper-pocketlab/fork) and submit a pull request.
 
 ## 📝 License
 
