@@ -3,6 +3,13 @@
 All notable changes to this project are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.1] - 2026-07-08
+
+### Changed
+
+- About screen now links to github.com/PerfectoWeb.
+- Presentable README: theme-aware banner, screenshot gallery, contribute section.
+
 ## [1.0] - 2026-07-08
 
 First public release.

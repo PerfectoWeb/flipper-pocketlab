@@ -20,10 +20,10 @@ typedef struct {
 // Fake terminal session, revealed one character at a time.
 static const char* const about_lines[] = {
     "$ cat about.txt",
-    "PocketLab v1.0",
+    "PocketLab v1.1",
     "One lab at a time.",
     "(c) PerfectoWeb",
-    "perfecto-web.com",
+    "github.com/PerfectoWeb",
 };
 
 static uint32_t about_view_total_chars(void) {

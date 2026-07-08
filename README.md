@@ -115,4 +115,4 @@ Every idea and PR is reviewed, and the good ones get **merged and shipped**. Tha
 
 ## 📝 License
 
-MIT – see [LICENSE](LICENSE). Built with care by [PerfectoWeb](https://perfecto-web.com).
+MIT – see [LICENSE](LICENSE). Built with care by [PerfectoWeb](https://github.com/PerfectoWeb).
