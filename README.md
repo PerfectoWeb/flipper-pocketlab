@@ -110,9 +110,10 @@ helpers/
 ## 💬 Support & Contributions
 
 - 💬 Found a bug or have a feature request? [Open an Issue](https://github.com/PerfectoWeb/flipper-pocketlab/issues)
-- ⭐ Like the project? [Star the repo](https://github.com/PerfectoWeb/flipper-pocketlab)! [Give a coffee](https://perfecto-web.com)!
+- ⭐ Like the project? [Star the repo](https://github.com/PerfectoWeb/flipper-pocketlab)! [Give a coffee](https://perfecto-web.com/d/)!
 - 🛠 Want to contribute? [Fork it](https://github.com/PerfectoWeb/flipper-pocketlab/fork) and submit a pull request.
 
 ## 📝 License
 
-MIT – see [LICENSE](LICENSE). Built with care by [PerfectoWeb](https://github.com/PerfectoWeb).
+MIT – see [LICENSE](LICENSE). 
+Made with ♥ by [PerfectoWeb](https://github.com/PerfectoWeb).
