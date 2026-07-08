@@ -1,11 +1,10 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="screenshots/dark_theme_banner.png">
-  <img alt="PocketLab – Learn Flipper Zero Basics" src="screenshots/light_theme_banner.png" width="680">
-</picture>
+# PocketLab
 
-<br/><br/>
+<img src="screenshots/demo_v1.2.gif" alt="PocketLab walkthrough" width="520">
+
+<br/>
 
 **Gamified, on-device learning for [Flipper Zero](https://github.com/flipperdevices).**
 
@@ -41,13 +40,6 @@ time.
   matrix-rain About screen
 - 📦 **No extra hardware** – pure software, runs on a stock Flipper Zero
 
-## 🎬 See it in action
-
-<div align="center">
-
-<img src="screenshots/demo_v1.2.gif" alt="PocketLab walkthrough" width="520">
-
-</div>
 
 ## 📸 Screenshots
 
