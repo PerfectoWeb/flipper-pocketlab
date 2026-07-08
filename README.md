@@ -1,7 +1,5 @@
-<div align="center">
-
 # PocketLab
-
+<div align="center">
 <img src="screenshots/demo_v1.2.gif" alt="PocketLab walkthrough" width="520">
 
 <br/>
@@ -55,15 +53,14 @@ time.
 
 ## 📥 Installation
 
-### ⬇️ Download the ready app (recommended)
+### A. Quick install (recommended)
 
 1. Download **`pocketlab.fap`** from the
    [latest release »](https://github.com/PerfectoWeb/flipper-pocketlab/releases/latest/download/pocketlab.fap)
 2. Copy it to your Flipper's SD card into `apps/Tools/`
-   (easiest with **qFlipper** – just drag the file into that folder)
 3. On the device open **Apps → Tools → PocketLab** 🎉
 
-### 🛠️ Build from source (ufbt)
+### B. Build from source (ufbt)
 
 <details>
 <summary>Show build instructions</summary>
@@ -72,13 +69,13 @@ time.
 firmware checkout:
 
 ```sh
-pipx install ufbt                # or: pip3 install --user ufbt
+pipx install ufbt # or: pip3 install --user ufbt
 
 git clone https://github.com/PerfectoWeb/flipper-pocketlab.git
 cd flipper-pocketlab
 
-ufbt              # builds dist/pocketlab.fap
-ufbt launch       # build, upload to a connected Flipper, and run
+ufbt # builds dist/pocketlab.fap
+ufbt launch # build, upload to a connected Flipper, and run
 ```
 
 The build output lands in `dist/pocketlab.fap`.
