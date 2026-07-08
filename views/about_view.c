@@ -90,7 +90,7 @@ static const AboutLine about_lines[] = {
     {NULL, 0, "that teaches the", 0},
     {NULL, 0, "Flipper Zero features.", 0},
     {NULL, 0, "", 0},
-    {about_icon_copyright, 7, "v1.2    PerfectoWeb", 4},
+    {about_icon_copyright, 7, "v1.2.1   PerfectoWeb", 6},
     {about_icon_github, 9, "github.com/PerfectoWeb", 0},
     {about_icon_issue, 9, "Issues & more:", 0},
     {NULL, 0, "github.com/PerfectoWeb/", 0},

@@ -145,20 +145,17 @@ static void home_view_draw_callback(Canvas* canvas, void* context) {
         canvas_set_color(canvas, ColorBlack);
     }
 
-    // Scroll indicator centred in the 2x2 grid: down first, up once scrolled.
+    // Tiny 3px scroll chevrons in the column gap: up on top, down at the bottom.
     const size_t total_rows = (model->count + HOME_COLS - 1) / HOME_COLS;
-    const bool can_down = model->offset + HOME_VISIBLE_ROWS < total_rows;
-    const bool can_up = model->offset > 0;
-    if(can_down || can_up) {
-        const uint8_t ax = 64;
-        const uint8_t ay = HOME_TOP + HOME_TILE_H + HOME_GAP_Y / 2;
-        if(can_down) {
-            canvas_draw_line(canvas, ax - 3, ay - 2, ax, ay + 1);
-            canvas_draw_line(canvas, ax, ay + 1, ax + 3, ay - 2);
-        } else {
-            canvas_draw_line(canvas, ax - 3, ay + 1, ax, ay - 2);
-            canvas_draw_line(canvas, ax, ay - 2, ax + 3, ay + 1);
-        }
+    if(model->offset > 0) {
+        canvas_draw_dot(canvas, 63, 12);
+        canvas_draw_dot(canvas, 64, 11);
+        canvas_draw_dot(canvas, 65, 12);
+    }
+    if(model->offset + HOME_VISIBLE_ROWS < total_rows) {
+        canvas_draw_dot(canvas, 63, 61);
+        canvas_draw_dot(canvas, 64, 62);
+        canvas_draw_dot(canvas, 65, 61);
     }
 }
 

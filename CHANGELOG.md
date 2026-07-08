@@ -3,6 +3,13 @@
 All notable changes to this project are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.2.1] - 2026-07-09
+
+### Fixed
+
+- Home screen scroll hints are back at the top and bottom of the grid as small
+  3px chevrons, instead of one arrow in the centre.
+
 ## [1.2] - 2026-07-09
 
 ### Added

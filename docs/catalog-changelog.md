@@ -1,3 +1,7 @@
+## 1.2.1
+
+- Home screen scroll hints are back at the top and bottom as small chevrons.
+
 ## 1.2
 
 - Level Up screen now rains confetti and lingers 50% longer to enjoy it.
