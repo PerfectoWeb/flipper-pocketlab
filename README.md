@@ -27,23 +27,37 @@ time.
 
 ## ✨ Features
 
-- 🎓 **11 labs** across the popular features: IR, Sub-GHz, RFID, NFC, iButton,
-  Bad USB, GPIO, BLE, U2F, ethics, firmware & apps
+- 🎓 **30 labs** across 11 tracks: IR, Sub-GHz, RFID, NFC, iButton, Bad USB,
+  GPIO, Bluetooth, security, system and more
 - 🎲 **Randomized quizzes** – a pool of distractors, shuffled every attempt, so
   you learn the answer, not its position
-- 🏆 **Progression** – XP, levels and unlockable badges, saved on the SD card
+- 🧠 **Quiz mode** – a random exam drawn from the labs you've completed, scored
+  at the end, to test what stuck
+- 🏆 **Progression** – XP, levels, a daily streak and unlockable badges, all
+  saved on the SD card
 - 🖼️ **Per-topic glyphs** next to each lesson title, so the subject reads at a glance
 - 🔊 **Sound & LED** – audio feedback with the RGB LED blinking to the reward tune
-- 🖥️ **Custom animated UI** – branded menu, progress cards, terminal-style About
+- 🖥️ **Custom animated UI** – tile menu, a badge gallery, stat cards and a
+  matrix-rain About screen
 - 📦 **No extra hardware** – pure software, runs on a stock Flipper Zero
+
+## 🎬 See it in action
+
+<div align="center">
+
+<img src="screenshots/demo_v1.2.gif" alt="PocketLab walkthrough" width="520">
+
+</div>
 
 ## 📸 Screenshots
 
 <div align="center">
 
-| Demo | Lesson | Reward |
+| Menu | Labs | Quiz |
 |:---:|:---:|:---:|
-| <img src="screenshots/demo_v1.1.gif" width="240"> | <img src="screenshots/lesson.png" width="240"> | <img src="screenshots/reward.png" width="240"> |
+| <img src="screenshots/menu.png" width="240"> | <img src="screenshots/labs.png" width="240"> | <img src="screenshots/quiz.png" width="240"> |
+| **Profile** | **Achievements** | **About** |
+| <img src="screenshots/profile.png" width="240"> | <img src="screenshots/achievements.png" width="240"> | <img src="screenshots/about.png" width="240"> |
 
 </div>
 
@@ -93,8 +107,10 @@ content and state kept as plain data.
 ```text
 pocketlab.c              App lifecycle, XP/level/award logic, entry point
 pocketlab_i.h            Shared app context and public helpers
-scenes/                  SceneManager scenes (menu, labs, lesson, progress, settings, about)
-views/                   Custom animated views (home, lesson, labs list, progress, about)
+scenes/                  SceneManager scenes (menu, labs, lesson, progress, badges,
+                         levelup, exam, settings, reset_confirm, about)
+views/                   Custom animated views (home, lesson, labs list, progress,
+                         badges, levelup, exam, about)
 helpers/
   pocketlab_content.*    Labs as data (step arrays + topic glyph)
   pocketlab_i18n.*       UI string table
