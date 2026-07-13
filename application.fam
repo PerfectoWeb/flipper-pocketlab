@@ -1,11 +1,3 @@
-# Version is read from pocketlab_version.h so it lives in exactly one place
-# (that header is also used by the About screen).
-import os as _os
-import re as _re
-
-with open(_os.path.join(_os.path.dirname(app_manifest_path), "pocketlab_version.h")) as _vf:
-    _pocketlab_version = _re.search(r'POCKETLAB_VERSION\s+"([^"]+)"', _vf.read()).group(1)
-
 App(
     appid="pocketlab",
     name="PocketLab",
@@ -17,5 +9,5 @@ App(
     fap_description="Learn your Flipper with short, gamified hands-on labs.",
     fap_author="PerfectoWeb",
     fap_weburl="https://github.com/PerfectoWeb/flipper-pocketlab",
-    fap_version=_pocketlab_version,
+    fap_version=(1, 5),
 )
